@@ -1,0 +1,24 @@
+{
+  "name": "dig-imr-3-pair.programing-dig",
+  "version": "1.0.0",
+  "description": "特に子育て世帯の困りごと、日々の献立🥘🙀 メニューを何にするか考えるのも投げ出したくなりますが、 これをレシピサイトAPI利用によるメニュー提案サイトで解決します。",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyac-mtcj/dig-imr-3-pair.programing-dig.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tyac-mtcj/dig-imr-3-pair.programing-dig/issues"
+  },
+  "homepage": "https://github.com/tyac-mtcj/dig-imr-3-pair.programing-dig#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "husky": "^8.0.1",
+    "mocha": "^10.1.0"
+  }
+}

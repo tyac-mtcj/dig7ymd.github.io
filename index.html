@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Sawarabi Mincho"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>Today's Dish!</title>
+  </head>
+  <body>
+    <h1>🍲🍛 きょうの料理 🥗🥧</h1>
+    <main>
+      <section id="buttonSection">
+        <!-- 取得したい料理のボタン -->
+        <h2 id="buttonArea" class="button-area__title">Select Button</h2>
+        <div>
+          <button id="category" class="main__btn" onclick="clickEvents(0)">
+            ｍａｉｎ
+          </button>
+          <button id="category" class="side__btn" onclick="clickEvents(1)">
+            ｓｉｄｅ
+          </button>
+          <button id="category" class="desert__btn" onclick="clickEvents(2)">
+            ｄｅｓｅｒｔ
+          </button>
+        </div>
+        <br />
+        <div>
+          <button id="area" class="japanese__btn" onclick="clickEvents(3)">
+            和食
+          </button>
+          <button id="area" class="french__btn" onclick="clickEvents(4)">
+            洋食
+          </button>
+          <button id="area" class="chinese__btn" onclick="clickEvents(5)">
+            中華
+          </button>
+        </div>
+        <br />
+        <div>
+          <button id="meat" class="beef__btn" onclick="clickEvents(6)">
+            🐮
+          </button>
+          <button id="meat" class="pork__btn" onclick="clickEvents(7)">
+            🐷
+          </button>
+          <button id="meat" class="chicken__btn" onclick="clickEvents(8)">
+            🐔
+          </button>
+        </div>
+        <br />
+        <button id="reload" class="reload__btn" onclick="window.location.reload();">
+          Ｒａｎｄｏｍ
+        </button>
+      </section>
+      <section id="marginSection"></section>
+      <section id="imgSection">
+        <!-- 料理名投稿欄 -->
+        <h2 id="proposalMenu" class="proposal-menu__title">提案メニュー</h2>
+        <div id="infdiv">
+          <div id="mealName" class="name__element">料理名</div>
+          <img id="mealImg" class="img__element" src="" alt="選択された料理" />
+          <div>
+            <a
+              id="mealLink"
+              class="link__element"
+              href="https://www.kyounoryouri.jp/"
+              >レシピはこちら</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <!-- <script src="moment.js"></script>
+    <script src="data_generator.js"></script> -->
+  <script src="app.js"></script>
+</html>

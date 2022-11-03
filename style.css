@@ -1,0 +1,108 @@
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, ".SFNSText-Regular", "Sawarabi Mincho", "hiragino kaku gothic pro", meiryo, "ms pgothic", sans-serif;
+}
+
+h1 {
+  margin: 32px;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  border-radius: 8px;
+  background: linear-gradient(to bottom right, pink, salmon);
+  box-shadow: 16px 10px 20px rgba(124, 48, 48, 0.5);
+}
+
+h2 {
+  width: 100%;
+  margin: 16px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 1px solid brown;
+  box-shadow: 8px 8px 10px rgba(124, 48, 48, 0.5);
+}
+
+main {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 480px;
+}
+
+#buttonSection {
+  max-width: 180px;
+  text-align: center;
+  font-family: "Sawarabi Mincho";
+}
+#buttonSection button {
+  font-family: "Sawarabi Mincho";
+  border-radius: 24px;
+  margin: 2px;
+  width: 100px;
+  padding: 8px;
+}
+#buttonSection button:hover {
+  transition: all 0.2s;
+  box-shadow: 2px 2px 4px rgba(124, 48, 48, 0.5);
+  transform: scale(1.1, 1.1);
+}
+#buttonSection button#category {
+  border: 1px solid salmon;
+  background: rgba(250, 128, 114, 0.1);
+  box-sizing: content-box;
+}
+#buttonSection button#area {
+  border: 1px solid brown;
+  background: rgba(165, 42, 42, 0.1);
+  box-sizing: content-box;
+}
+#buttonSection button#meat {
+  font-size: 20px;
+  border: 1px solid darkgoldenrod;
+  background: rgba(184, 134, 11, 0.1);
+  box-sizing: content-box;
+}
+#buttonSection button#reload {
+  border: 1px solid blue;
+  background: rgba(0, 0, 255, 0.05);
+  box-sizing: content-box;
+}
+
+#marginSection {
+  min-width: 40px;
+}
+
+#imgSection {
+  text-align: center;
+  font-family: "Sawarabi Mincho";
+}
+#imgSection #mealName {
+  margin: 8px;
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  border-radius: 8px;
+  background-color: salmon;
+  background: linear-gradient(to bottom right, pink, red);
+  padding: 4px;
+  box-shadow: 16px 10px 20px rgba(124, 48, 48, 0.5);
+}
+#imgSection #mealImg {
+  width: 240px;
+  border-radius: 8px;
+  box-shadow: 8px 8px 10px rgba(124, 48, 48, 0.5);
+}
+#imgSection #mealLink {
+  float: right;
+  border-radius: 24px;
+  border: 1px solid salmon;
+  background: white;
+  padding: 16px;
+  box-shadow: 16px 10px 20px rgba(124, 48, 48, 0.5);
+}
+#imgSection #mealLink:hover {
+  transition: all 0.2s;
+  box-shadow: 2px 2px 4px rgba(124, 48, 48, 0.5);
+  transform: scale(1.3, 1.3);
+}/*# sourceMappingURL=style.css.map */
