@@ -17,37 +17,37 @@
         <!-- 取得したい料理のボタン -->
         <h2 id="buttonArea" class="button-area__title">Select Button</h2>
         <div>
-          <button id="category" class="main__btn" onclick="clickEvents(0)">
+          <button id="category" class="main__btn" onclick="MealAPImethod.clickEvents(0)">
             ｍａｉｎ
           </button>
-          <button id="category" class="side__btn" onclick="clickEvents(1)">
+          <button id="category" class="side__btn" onclick="MealAPImethod.clickEvents(1)">
             ｓｉｄｅ
           </button>
-          <button id="category" class="desert__btn" onclick="clickEvents(2)">
+          <button id="category" class="desert__btn" onclick="MealAPImethod.clickEvents(2)">
             ｄｅｓｅｒｔ
           </button>
         </div>
         <br />
         <div>
-          <button id="area" class="japanese__btn" onclick="clickEvents(3)">
+          <button id="area" class="japanese__btn" onclick="MealAPImethod.clickEvents(3)">
             和食
           </button>
-          <button id="area" class="french__btn" onclick="clickEvents(4)">
+          <button id="area" class="french__btn" onclick="MealAPImethod.clickEvents(4)">
             洋食
           </button>
-          <button id="area" class="chinese__btn" onclick="clickEvents(5)">
+          <button id="area" class="chinese__btn" onclick="MealAPImethod.clickEvents(5)">
             中華
           </button>
         </div>
         <br />
         <div>
-          <button id="meat" class="beef__btn" onclick="clickEvents(6)">
+          <button id="meat" class="beef__btn" onclick="MealAPImethod.clickEvents(6)">
             🐮
           </button>
-          <button id="meat" class="pork__btn" onclick="clickEvents(7)">
+          <button id="meat" class="pork__btn" onclick="MealAPImethod.clickEvents(7)">
             🐷
           </button>
-          <button id="meat" class="chicken__btn" onclick="clickEvents(8)">
+          <button id="meat" class="chicken__btn" onclick="MealAPImethod.clickEvents(8)">
             🐔
           </button>
         </div>
@@ -63,6 +63,10 @@
         <div id="infdiv">
           <div id="mealName" class="name__element">料理名</div>
           <img id="mealImg" class="img__element" src="" alt="選択された料理" />
+          <div class="steam01"><img src="img/steam01.png" alt="湯気"></div>
+          <div class="steam02"><img src="img/steam02.png" alt="湯気"></div>
+          <div class="steam03"><img src="img/steam01.png" alt="湯気"></div>
+    
           <div>
             <a
               id="mealLink"
